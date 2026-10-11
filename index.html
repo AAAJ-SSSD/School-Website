@@ -1,0 +1,426 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Jeddah World Academy</title>
+  <meta name="description" content="Jeddah World Academy — an international K-12 school in Jeddah offering Kindergarten, Elementary, Middle and High School programs." />
+  <link rel="icon" type="image/png" href="images/logo.png" />
+  <meta name="theme-color" content="#42266f" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Top bar -->
+  <div class="topbar">
+    <div class="container topbar__inner">
+      <div class="topbar__info">
+        <a href="tel:920012376"><svg viewBox="0 0 24 24"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg> 9200 12376</a>
+        <a href="mailto:info@jwa.edu.sa"><svg viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg> info@jwa.edu.sa</a>
+      </div>
+      <div class="social">
+        <a href="#" aria-label="X"><svg viewBox="0 0 24 24" class="fill"><path d="M17.8 3h3.1l-6.8 7.7L22 21h-6.2l-4.9-6.4L5.3 21H2.2l7.2-8.3L1.8 3h6.4l4.4 5.8L17.8 3zm-1.1 16.2h1.7L7.4 4.7H5.6l11.1 14.5z"/></svg></a>
+        <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".5"/></svg></a>
+        <a href="#" aria-label="YouTube"><svg viewBox="0 0 24 24"><path d="M22.5 6.4a2.8 2.8 0 0 0-2-2C18.9 4 12 4 12 4s-6.9 0-8.6.5a2.8 2.8 0 0 0-1.9 1.9A29 29 0 0 0 1 12a29 29 0 0 0 .5 5.6 2.8 2.8 0 0 0 1.9 2c1.7.4 8.6.4 8.6.4s6.9 0 8.6-.5a2.8 2.8 0 0 0 1.9-1.9A29 29 0 0 0 23 12a29 29 0 0 0-.5-5.6z"/><path d="m9.8 15.5 5.7-3.5-5.7-3.5v7z"/></svg></a>
+        <a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg></a>
+        <a href="#" aria-label="TikTok"><svg viewBox="0 0 24 24"><path d="M9 12a4 4 0 1 0 4 4V2h4a5 5 0 0 0 5 5"/></svg></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#home" class="brand">
+        <img src="images/logo.png" alt="Jeddah World Academy logo" class="brand__logo" width="419" height="346" />
+        <span class="brand__text">
+          <strong data-i18n="brand.name">Jeddah World Academy</strong>
+          <small data-i18n="brand.sub">أكاديمية عالم جدة</small>
+        </span>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Main">
+        <ul>
+          <li><a href="#home" data-i18n="nav.home">Home</a></li>
+          <li class="has-drop"><a href="#about" data-i18n="nav.about">About JWA</a>
+            <div class="drop">
+              <a href="#about" data-i18n="nav.story">Our Story</a>
+              <a href="#about" data-i18n="nav.mission">Mission &amp; Vision</a>
+              <a href="#about" data-i18n="nav.letter">Letter to Parents</a>
+              <a href="#about" data-i18n="nav.calendar">JWA Calendar</a>
+              <a href="#about" data-i18n="nav.accred">Accreditation</a>
+            </div>
+          </li>
+          <li class="has-drop"><a href="#programs" data-i18n="nav.academics">Academics</a>
+            <div class="drop">
+              <a href="#programs" data-i18n="nav.curriculum">Curriculum</a>
+              <a href="#programs" data-i18n="nav.kg">Kindergarten</a>
+              <a href="#programs" data-i18n="nav.elem">Elementary School</a>
+              <a href="#programs" data-i18n="nav.mhs">Middle &amp; High School</a>
+              <a href="#programs" data-i18n="nav.tech">Technology</a>
+              <a href="#programs" data-i18n="nav.lib">Libraries</a>
+            </div>
+          </li>
+          <li class="has-drop"><a href="#activities" data-i18n="nav.life">Student Life</a>
+            <div class="drop">
+              <a href="#activities" data-i18n="nav.achieve">Achievements</a>
+              <a href="#activities" data-i18n="nav.facilities">School Facilities</a>
+              <a href="#activities" data-i18n="nav.gallery">Photo Gallery</a>
+              <a href="#news" data-i18n="nav.news">News &amp; Events</a>
+              <a href="#activities" data-i18n="nav.trips">School Trips</a>
+            </div>
+          </li>
+          <li class="has-drop"><a href="#admission" data-i18n="nav.admission">Admission</a>
+            <div class="drop">
+              <a href="#admission" data-i18n="nav.policy">Admission Policy</a>
+              <a href="#admission" data-i18n="nav.apply">Apply Now</a>
+              <a href="#admission" data-i18n="nav.fees">Tuition Fees</a>
+              <a href="#contact" data-i18n="nav.work">Work at JWA</a>
+            </div>
+          </li>
+          <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header__actions">
+        <button class="lang-btn" id="langBtn" aria-label="Switch language">عربي</button>
+        <a href="#admission" class="btn btn--primary btn--sm" data-i18n="cta.register">Register Now</a>
+        <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero" id="home">
+      <div class="hero__bg">
+        <span class="blob blob--1"></span><span class="blob blob--2"></span><span class="blob blob--3"></span>
+        <div class="grid-pattern"></div>
+      </div>
+      <div class="container hero__inner">
+        <div class="hero__content reveal">
+          <span class="pill"><span class="dot"></span> <span data-i18n="hero.pill">Admissions open for 2026–2027</span></span>
+          <h1 data-i18n="hero.title">Giving <span class="grad">magic space</span> for children to grow</h1>
+          <p data-i18n="hero.text">An international curriculum from Kindergarten to Grade 12, built within an Islamic framework and licensed by the Ministry of Education — where every child is seen, supported and inspired.</p>
+          <div class="hero__btns">
+            <a href="#admission" class="btn btn--primary" data-i18n="hero.apply">Apply Now</a>
+            <a href="#programs" class="btn btn--ghost"><span data-i18n="hero.explore">Explore Programs</span> <svg class="arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          </div>
+          <div class="hero__trust">
+            <div class="avatars"><span>KG</span><span>G5</span><span>G9</span><span>+</span></div>
+            <p data-i18n="hero.trust"><strong>900+ students</strong> learning with us this year</p>
+          </div>
+        </div>
+
+        <div class="hero__visual reveal">
+          <div class="hero-card hero-card--main">
+            <svg viewBox="0 0 400 400" class="illus" aria-hidden="true">
+              <defs>
+                <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f5ecff"/><stop offset="1" stop-color="#fff7e0"/></linearGradient>
+              </defs>
+              <rect width="400" height="400" rx="32" fill="url(#sky)"/>
+              <circle cx="310" cy="90" r="38" fill="#ffc83d"/>
+              <path d="M0 300 Q100 250 200 290 T400 280 V400 H0z" fill="#cfe8b5"/>
+              <path d="M0 330 Q120 300 220 330 T400 320 V400 H0z" fill="#a3d47a"/>
+              <g transform="translate(110 150)">
+                <rect x="0" y="40" width="180" height="130" rx="8" fill="#fff"/>
+                <path d="M-10 46 L90 -10 L190 46z" fill="#e82d75"/>
+                <rect x="72" y="100" width="36" height="70" rx="4" fill="#42266f"/>
+                <rect x="20" y="70" width="34" height="30" rx="4" fill="#c9b3e6"/>
+                <rect x="126" y="70" width="34" height="30" rx="4" fill="#c9b3e6"/>
+                <circle cx="90" cy="24" r="10" fill="#fff"/>
+                <line x1="90" y1="-10" x2="90" y2="-40" stroke="#42266f" stroke-width="3"/>
+                <path d="M90 -40 h26 l-6 8 6 8 h-26z" fill="#6fae3a"/>
+              </g>
+              <g fill="#fff" opacity=".9"><ellipse cx="80" cy="80" rx="34" ry="12"/><ellipse cx="100" cy="72" rx="22" ry="14"/></g>
+            </svg>
+          </div>
+          <div class="float-card float-card--a">
+            <span class="ic ic--green"><svg viewBox="0 0 24 24"><path d="M12 2 3 7l9 5 9-5-9-5zM3 17l9 5 9-5M3 12l9 5 9-5"/></svg></span>
+            <div><strong data-i18n="float.a1">KG – Grade 12</strong><small data-i18n="float.a2">International curriculum</small></div>
+          </div>
+          <div class="float-card float-card--b">
+            <span class="ic ic--orange"><svg viewBox="0 0 24 24"><path d="m12 2 3 7h7l-5.5 4.5 2 7.5-6.5-4.5L5.5 21l2-7.5L2 9h7z"/></svg></span>
+            <div><strong data-i18n="float.b1">STEAM Awards</strong><small data-i18n="float.b2">SpacePrize CubeSat 2026</small></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features -->
+    <section class="section features" id="offer">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="eyebrow" data-i18n="offer.eyebrow">Why JWA</span>
+          <h2 data-i18n="offer.title">What we offer at Jeddah World</h2>
+          <p data-i18n="offer.text">A learning centre designed around curiosity, character and academic excellence.</p>
+        </div>
+        <div class="cards-4">
+          <article class="feature reveal">
+            <span class="ic ic--blue"><svg viewBox="0 0 24 24"><path d="M9 18h6M10 22h4M12 2a7 7 0 0 0-4 12.7V17h8v-2.3A7 7 0 0 0 12 2z"/></svg></span>
+            <h3 data-i18n="offer.f1">Excellence &amp; Creativity</h3>
+            <p data-i18n="offer.f1t">Project-based learning that turns ideas into real-world innovation.</p>
+          </article>
+          <article class="feature reveal">
+            <span class="ic ic--green"><svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg></span>
+            <h3 data-i18n="offer.f2">High Quality</h3>
+            <p data-i18n="offer.f2t">Accredited programs with rigorous international standards.</p>
+          </article>
+          <article class="feature reveal">
+            <span class="ic ic--orange"><svg viewBox="0 0 24 24"><circle cx="9" cy="7" r="4"/><path d="M3 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2M16 3.1a4 4 0 0 1 0 7.8M21 21v-2a4 4 0 0 0-3-3.9"/></svg></span>
+            <h3 data-i18n="offer.f3">Qualified Teachers</h3>
+            <p data-i18n="offer.f3t">120 dedicated, certified educators who know every child by name.</p>
+          </article>
+          <article class="feature reveal">
+            <span class="ic ic--purple"><svg viewBox="0 0 24 24"><path d="M20.6 13.4 13.4 20.6a2 2 0 0 1-2.8 0L2 12V2h10l8.6 8.6a2 2 0 0 1 0 2.8z"/><circle cx="7" cy="7" r="1.5"/></svg></span>
+            <h3 data-i18n="offer.f4">Fair Fees</h3>
+            <p data-i18n="offer.f4t">Premium international education at accessible tuition rates.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Programs -->
+    <section class="section programs" id="programs">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="eyebrow" data-i18n="prog.eyebrow">Academics</span>
+          <h2 data-i18n="prog.title">A perfect learning journey</h2>
+          <p data-i18n="prog.text">From first steps to graduation, every stage is designed for how children learn best.</p>
+        </div>
+
+        <div class="tabs reveal" role="tablist">
+          <button class="tab is-active" role="tab" data-tab="kg" data-i18n="prog.t1">Kindergarten</button>
+          <button class="tab" role="tab" data-tab="elem" data-i18n="prog.t2">Elementary</button>
+          <button class="tab" role="tab" data-tab="mhs" data-i18n="prog.t3">Middle &amp; High</button>
+          <button class="tab" role="tab" data-tab="sen" data-i18n="prog.t4">Special Education</button>
+        </div>
+
+        <div class="panels reveal">
+          <div class="panel is-active" id="kg">
+            <div class="panel__text">
+              <span class="tag" data-i18n="prog.kg.tag">KG1 – KG3 · Ages 3–6</span>
+              <h3 data-i18n="prog.kg.h">Where curiosity begins</h3>
+              <p data-i18n="prog.kg.p">Play-based learning, early literacy in English and Arabic, and hands-on STEAM days that build confidence and a lifelong love of discovery.</p>
+              <ul class="checks">
+                <li data-i18n="prog.kg.l1">Bilingual early literacy</li>
+                <li data-i18n="prog.kg.l2">KG STEAM Days</li>
+                <li data-i18n="prog.kg.l3">Social &amp; emotional growth</li>
+              </ul>
+            </div>
+            <div class="panel__art art--kg"><span>🎨</span></div>
+          </div>
+          <div class="panel" id="elem">
+            <div class="panel__text">
+              <span class="tag" data-i18n="prog.el.tag">Grades 1 – 5</span>
+              <h3 data-i18n="prog.el.h">Strong foundations</h3>
+              <p data-i18n="prog.el.p">A rich international curriculum in Reading, Writing, Math, Science and Arabic, with small classes and personal attention for every learner.</p>
+              <ul class="checks">
+                <li data-i18n="prog.el.l1">Inquiry-based science</li>
+                <li data-i18n="prog.el.l2">Technology &amp; coding</li>
+                <li data-i18n="prog.el.l3">Libraries &amp; reading programs</li>
+              </ul>
+            </div>
+            <div class="panel__art art--elem"><span>📚</span></div>
+          </div>
+          <div class="panel" id="mhs">
+            <div class="panel__text">
+              <span class="tag" data-i18n="prog.mh.tag">Grades 6 – 12</span>
+              <h3 data-i18n="prog.mh.h">Ready for the world</h3>
+              <p data-i18n="prog.mh.p">Advanced academics, competitions and leadership opportunities that prepare students for top universities and future careers.</p>
+              <ul class="checks">
+                <li data-i18n="prog.mh.l1">STEM competitions &amp; robotics</li>
+                <li data-i18n="prog.mh.l2">Career Day &amp; university guidance</li>
+                <li data-i18n="prog.mh.l3">Leadership &amp; community service</li>
+              </ul>
+            </div>
+            <div class="panel__art art--mhs"><span>🚀</span></div>
+          </div>
+          <div class="panel" id="sen">
+            <div class="panel__text">
+              <span class="tag" data-i18n="prog.se.tag">Is your child falling behind?</span>
+              <h3 data-i18n="prog.se.h">Prescriptive &amp; adaptive support</h3>
+              <p data-i18n="prog.se.p">Our Special Education Program supports children with learning difficulties and developmental delays through individual plans in Reading, Writing, Math and Arabic.</p>
+              <ul class="checks">
+                <li data-i18n="prog.se.l1">Individual learning plans</li>
+                <li data-i18n="prog.se.l2">Specialist support staff</li>
+                <li data-i18n="prog.se.l3">Regular progress reports to parents</li>
+              </ul>
+            </div>
+            <div class="panel__art art--sen"><span>🤝</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About / Stats -->
+    <section class="section about" id="about">
+      <div class="container about__inner">
+        <div class="about__text reveal">
+          <span class="eyebrow eyebrow--light" data-i18n="about.eyebrow">About JWA</span>
+          <h2 data-i18n="about.title">Educating minds, nurturing hearts</h2>
+          <p data-i18n="about.p">Jeddah World Academy provides an international education within an Islamic framework, licensed by the Ministry of Education. We help every student build knowledge, values and the confidence to lead.</p>
+          <div class="mv">
+            <div><h4 data-i18n="about.m">Our Mission</h4><p data-i18n="about.mt">To deliver excellent, balanced education that develops creative, responsible global citizens.</p></div>
+            <div><h4 data-i18n="about.v">Our Vision</h4><p data-i18n="about.vt">A leading academy where every learner discovers their potential.</p></div>
+          </div>
+          <a href="#contact" class="btn btn--light" data-i18n="about.more">More About JWA</a>
+        </div>
+        <div class="stats reveal">
+          <div class="stat"><strong class="count" data-to="900">0</strong><span data-i18n="stat.students">Students</span></div>
+          <div class="stat"><strong class="count" data-to="120">0</strong><span data-i18n="stat.teachers">Teachers</span></div>
+          <div class="stat"><strong class="count" data-to="120">0</strong><span data-i18n="stat.certs">Certificates</span></div>
+          <div class="stat"><strong class="count" data-to="13">0</strong><span data-i18n="stat.grades">Grade levels</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Activities -->
+    <section class="section activities" id="activities">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="eyebrow" data-i18n="act.eyebrow">Student Life</span>
+          <h2 data-i18n="act.title">Our activities at JWA</h2>
+          <p data-i18n="act.text">Learning extends far beyond the classroom.</p>
+        </div>
+        <div class="bento">
+          <article class="act act--lg act--1 reveal"><div class="act__emoji">🔬</div><div class="act__body"><h3 data-i18n="act.a1">KG STEAM Day</h3><p data-i18n="act.a1t">Hands-on science, technology, engineering, arts and math for our youngest learners.</p></div></article>
+          <article class="act act--2 reveal"><div class="act__emoji">🎨</div><div class="act__body"><h3 data-i18n="act.a2">Drawing Lessons</h3></div></article>
+          <article class="act act--3 reveal"><div class="act__emoji">⚽</div><div class="act__body"><h3 data-i18n="act.a3">Sport Activities</h3></div></article>
+          <article class="act act--4 reveal"><div class="act__emoji">💼</div><div class="act__body"><h3 data-i18n="act.a4">Career Day</h3></div></article>
+          <article class="act act--5 reveal"><div class="act__emoji">🚌</div><div class="act__body"><h3 data-i18n="act.a5">School Trips</h3></div></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- News -->
+    <section class="section news" id="news">
+      <div class="container">
+        <div class="section__head section__head--row reveal">
+          <div>
+            <span class="eyebrow" data-i18n="news.eyebrow">News &amp; Events</span>
+            <h2 data-i18n="news.title">Latest at JWA</h2>
+          </div>
+          <a href="#news" class="link-arrow"><span data-i18n="news.all">View all news</span> <svg class="arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        </div>
+        <div class="news__grid">
+          <article class="post reveal">
+            <div class="post__img img--1"><span class="post__cat" data-i18n="news.c1">Event</span></div>
+            <div class="post__body"><time data-i18n="news.d1">May 21, 2026</time><h3 data-i18n="news.n1">Expo 2026</h3><p data-i18n="news.n1t">Students showcase a year of research, design and innovation projects.</p></div>
+          </article>
+          <article class="post reveal">
+            <div class="post__img img--2"><span class="post__cat" data-i18n="news.c2">Ceremony</span></div>
+            <div class="post__body"><time data-i18n="news.d2">April 22, 2026</time><h3 data-i18n="news.n2">JWA Graduation Ceremony 2024–2025</h3><p data-i18n="news.n2t">Celebrating our graduates and their bright futures.</p></div>
+          </article>
+          <article class="post reveal">
+            <div class="post__img img--3"><span class="post__cat" data-i18n="news.c3">Award</span></div>
+            <div class="post__body"><time data-i18n="news.d3">April 22, 2026</time><h3 data-i18n="news.n3">SpacePrize CubeSat Challenge</h3><p data-i18n="news.n3t">Time for recognition — our team honoured in the national CubeSat challenge.</p></div>
+          </article>
+          <article class="post reveal">
+            <div class="post__img img--4"><span class="post__cat" data-i18n="news.c4">Achievement</span></div>
+            <div class="post__body"><time data-i18n="news.d4">April 7, 2026</time><h3 data-i18n="news.n4">Best Digital Design — Effat University</h3><p data-i18n="news.n4t">Winning “Best Digital Design for Quality of Life”.</p></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta" id="admission">
+      <div class="container">
+        <div class="cta__box reveal">
+          <div>
+            <h2 data-i18n="cta.title">Want to join Jeddah World Academy?</h2>
+            <p data-i18n="cta.text">Book a campus tour, review tuition fees or start your application today.</p>
+          </div>
+          <div class="cta__btns">
+            <a href="#contact" class="btn btn--light" data-i18n="cta.apply">Start Application</a>
+            <a href="#contact" class="btn btn--outline-light" data-i18n="cta.tour">Book a Tour</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section contact" id="contact">
+      <div class="container contact__inner">
+        <div class="contact__info reveal">
+          <span class="eyebrow" data-i18n="contact.eyebrow">Contact Us</span>
+          <h2 data-i18n="contact.title">We’d love to hear from you</h2>
+          <p data-i18n="contact.text">Questions about admission, programs or visits? Our team is happy to help.</p>
+          <ul class="info-list">
+            <li><span class="ic ic--blue"><svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></span><div><small data-i18n="contact.addr">Address</small><strong data-i18n="contact.addrv">Al Basatin Dist., Ahmed Ibrahim Al Gazawi St., Jeddah 23717</strong></div></li>
+            <li><span class="ic ic--green"><svg viewBox="0 0 24 24"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg></span><div><small data-i18n="contact.phone">Phone</small><strong><a href="tel:920012376" dir="ltr">9200 12376</a></strong></div></li>
+            <li><span class="ic ic--orange"><svg viewBox="0 0 24 24"><path d="M21 11.5a8.4 8.4 0 0 1-12.4 7.4L3 21l2.1-5.6A8.4 8.4 0 1 1 21 11.5z"/></svg></span><div><small data-i18n="contact.wa">WhatsApp</small><strong><a href="https://wa.me/966543377711" dir="ltr">054 337 7711</a></strong></div></li>
+            <li><span class="ic ic--purple"><svg viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg></span><div><small data-i18n="contact.email">Email</small><strong><a href="mailto:info@jwa.edu.sa">info@jwa.edu.sa</a></strong></div></li>
+          </ul>
+        </div>
+
+        <form class="form reveal" id="contactForm" novalidate>
+          <h3 data-i18n="form.title">Send us a message</h3>
+          <div class="form__row">
+            <label><span data-i18n="form.name">Parent name</span><input type="text" name="name" required /></label>
+            <label><span data-i18n="form.phone">Phone</span><input type="tel" name="phone" required /></label>
+          </div>
+          <label><span data-i18n="form.email">Email</span><input type="email" name="email" required /></label>
+          <label><span data-i18n="form.grade">Grade of interest</span>
+            <select name="grade">
+              <option data-i18n="prog.t1">Kindergarten</option>
+              <option data-i18n="prog.t2">Elementary</option>
+              <option data-i18n="prog.t3">Middle &amp; High</option>
+              <option data-i18n="prog.t4">Special Education</option>
+            </select>
+          </label>
+          <label><span data-i18n="form.msg">Message</span><textarea name="message" rows="4"></textarea></label>
+          <button type="submit" class="btn btn--primary btn--block" data-i18n="form.send">Send Message</button>
+          <p class="form__note" id="formNote" role="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div>
+        <a href="#home" class="brand brand--light">
+          <span class="brand__tile"><img src="images/logo.png" alt="Jeddah World Academy logo" class="brand__logo" width="419" height="346" /></span>
+          <span class="brand__text"><strong data-i18n="brand.name">Jeddah World Academy</strong><small data-i18n="brand.sub">أكاديمية عالم جدة</small></span>
+        </a>
+        <p class="footer__about" data-i18n="footer.about">International K-12 education within an Islamic framework. Licensed by the Ministry of Education.</p>
+      </div>
+      <div>
+        <h4 data-i18n="footer.menu">Main Menu</h4>
+        <a href="#about" data-i18n="nav.about">About JWA</a>
+        <a href="#programs" data-i18n="nav.academics">Academics</a>
+        <a href="#activities" data-i18n="nav.life">Student Life</a>
+        <a href="#admission" data-i18n="nav.admission">Admission</a>
+      </div>
+      <div>
+        <h4 data-i18n="footer.links">Useful Links</h4>
+        <a href="#about" data-i18n="nav.calendar">JWA Calendar</a>
+        <a href="#admission" data-i18n="nav.fees">Tuition Fees</a>
+        <a href="#contact" data-i18n="footer.health">Health Information</a>
+        <a href="#contact" data-i18n="footer.uniform">Uniform Information</a>
+      </div>
+      <div>
+        <h4 data-i18n="footer.follow">Follow Us</h4>
+        <div class="social social--footer">
+          <a href="#" aria-label="X"><svg viewBox="0 0 24 24" class="fill"><path d="M17.8 3h3.1l-6.8 7.7L22 21h-6.2l-4.9-6.4L5.3 21H2.2l7.2-8.3L1.8 3h6.4l4.4 5.8L17.8 3zm-1.1 16.2h1.7L7.4 4.7H5.6l11.1 14.5z"/></svg></a>
+          <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/></svg></a>
+          <a href="#" aria-label="YouTube"><svg viewBox="0 0 24 24"><path d="M22.5 6.4a2.8 2.8 0 0 0-2-2C18.9 4 12 4 12 4s-6.9 0-8.6.5a2.8 2.8 0 0 0-1.9 1.9A29 29 0 0 0 1 12a29 29 0 0 0 .5 5.6 2.8 2.8 0 0 0 1.9 2c1.7.4 8.6.4 8.6.4s6.9 0 8.6-.5a2.8 2.8 0 0 0 1.9-1.9A29 29 0 0 0 23 12a29 29 0 0 0-.5-5.6z"/><path d="m9.8 15.5 5.7-3.5-5.7-3.5v7z"/></svg></a>
+          <a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg></a>
+        </div>
+      </div>
+    </div>
+    <div class="container footer__bottom">
+      <p>© <span id="year"></span> <span data-i18n="footer.copy">Jeddah World Academy. All rights reserved.</span></p>
+    </div>
+  </footer>
+
+  <a href="#home" class="to-top" id="toTop" aria-label="Back to top"><svg viewBox="0 0 24 24"><path d="M12 19V5M5 12l7-7 7 7"/></svg></a>
+
+  <script src="script.js"></script>
+</body>
+</html>
